@@ -576,31 +576,32 @@ use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "selene"
-version = "2.0.0b14"
+version = "2.0.0b17"
 description = "User-oriented browser tests in Python (Selenide port)"
 category = "main"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "selene-2.0.0b14-py3-none-any.whl", hash = "sha256:d520757aac8aff1cfacf41406490f03d9db66ab4b22e5729bab924e046aa31a4"},
-    {file = "selene-2.0.0b14.tar.gz", hash = "sha256:53ed10e5758987a1f7faaa35b8bf9f4e029fe2fb9f57d82df49d9b567f501139"},
+    {file = "selene-2.0.0b17-py3-none-any.whl", hash = "sha256:7b87930960becb81efaf2bca375601b243010743dd0c02aa7c6e729b72df0f79"},
+    {file = "selene-2.0.0b17.tar.gz", hash = "sha256:a5fc137f11c4de1bbf8ef3e8a6bc27791cc85171932e84dc506bf5bddf1ebe7f"},
 ]
 
 [package.dependencies]
 future = "*"
-selenium = "4.4.3"
+selenium = ">=4.4.3"
 typing-extensions = "4.3.0"
-webdriver-manager = "3.8.3"
+webdriver-manager = ">=3.8.5"
 
 [[package]]
 name = "selenium"
-version = "4.4.3"
+version = "4.8.0"
 description = ""
 category = "main"
 optional = false
-python-versions = "~=3.7"
+python-versions = ">=3.7"
 files = [
-    {file = "selenium-4.4.3-py3-none-any.whl", hash = "sha256:ca6ed4a58a426bb40bf5aa2b027ce211cc5200f1acdcdfb8258b32b24624150c"},
+    {file = "selenium-4.8.0-py3-none-any.whl", hash = "sha256:20f28ee4ea9b273b4112a7df5276ebb3052f79ff6eff42a564db6143e5926683"},
+    {file = "selenium-4.8.0.tar.gz", hash = "sha256:fee36724d6cf0b18c73781bb8ec7be4a35ab1e2564e64e64e64da75e50e052af"},
 ]
 
 [package.dependencies]
@@ -751,17 +752,18 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "webdriver-manager"
-version = "3.8.3"
+version = "3.8.5"
 description = "Library provides the way to automatically manage drivers for different browsers"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "webdriver_manager-3.8.3-py2.py3-none-any.whl", hash = "sha256:bd156a328bac384595ab102c057be6a98f41f7e830d68ca4ac94cb0d7f96da8c"},
-    {file = "webdriver_manager-3.8.3.tar.gz", hash = "sha256:2e0fa8abc164023a8171d308a34451b50cef4867768a8f5034b88d44d82546da"},
+    {file = "webdriver_manager-3.8.5-py2.py3-none-any.whl", hash = "sha256:2d807ec270d2d990022b86efabd4096053e0a1e7a34c6174f9937320dfdc6826"},
+    {file = "webdriver_manager-3.8.5.tar.gz", hash = "sha256:e671f3b738af52351341d6df6674c2f0b959db0fe978e9a7135cfa36d1ad9560"},
 ]
 
 [package.dependencies]
+packaging = "*"
 python-dotenv = "*"
 requests = "*"
 tqdm = "*"
@@ -858,4 +860,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "59c1132cc87811dd76cfe463fb136e15a518022b3ad4c1da46184bd20ce07504"
+content-hash = "347909346677df43919a4c713949b3c1cce88913d348a723e1de478a77dbd80f"
